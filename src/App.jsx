@@ -75,10 +75,6 @@ export default function App() {
     }
     
     setTodos([...todos, newTodo])
-
-    todoTitle.value = "";
-    todoDescription.value = "";
-
   }
 
   const deleteTodo = (id) => {

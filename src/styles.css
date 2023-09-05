@@ -1,8 +1,29 @@
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #7093c0;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+
+input {
+  font-family: Arial, sans-serif; 
+  background-color: #007bff; 
+  color: rgb(255, 255, 255); 
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  transition: 300ms, color 300ms;
+}
+
+  input:hover {
+  background-color: #2e4053; 
+  color: #7da07b; /
 }
 
 .logo {
@@ -16,6 +37,25 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.todo-btn {
+  font-family: Arial, sans-serif;
+  margin: 4px;
+  background-color: #007bff; 
+  color: rgb(0, 0, 0); 
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 300ms, color 300ms;
+  
+}
+
+.todo-btn:hover {
+  background-color: #0056b3; 
+  color: #fff; 
 }
 
 @keyframes logo-spin {
@@ -43,5 +83,5 @@
 
 
 .green{
-  color: green;
+  color: rgb(55, 201, 55);
 }

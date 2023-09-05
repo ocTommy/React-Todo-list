@@ -5,7 +5,7 @@ const Todo = ({ completed, title, description, id, deleteTodo }) => {
         {!completed && (
           <h4 className="not-completed">
             {description}
-            <button onClick={() => deleteTodo(id)}>Delete todo</button>
+            <button className="todo-btn" onClick={() => deleteTodo(id)}>Delete todo</button>
           </h4>
         )}
       </>
