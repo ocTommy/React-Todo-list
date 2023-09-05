@@ -22,7 +22,7 @@ input {
 }
 
 input::placeholder {
-  color: rgb(0, 0, 0); /* Change to your desired placeholder text color */
+  color: rgb(0, 0, 0); 
 }
 
   input:hover {
