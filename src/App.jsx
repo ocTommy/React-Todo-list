@@ -76,11 +76,15 @@ export default function App() {
     
     setTodos([...todos, newTodo])
 
+    todoTitle.value = "";
+    todoDescription.value = "";
+
   }
 
   const deleteTodo = (id) => {
     console.log("deleting todo")
-    
+    let newTodos = todos.filter((todo, index) => index !== id);
+    setTodos(newTodos);
   }
    
 
