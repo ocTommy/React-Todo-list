@@ -21,9 +21,13 @@ input {
   transition: 300ms, color 300ms;
 }
 
+input::placeholder {
+  color: rgb(0, 0, 0); /* Change to your desired placeholder text color */
+}
+
   input:hover {
-  background-color: #2e4053; 
-  color: #7da07b; /
+  background-color: #6fa8e6; 
+  color: #000000; /
 }
 
 .logo {
@@ -31,7 +35,7 @@ input {
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-}
+} 
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
